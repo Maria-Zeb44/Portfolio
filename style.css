@@ -35,14 +35,21 @@ a {
     color:#0077b6;
 }
 .circle-img {
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
   object-fit: cover;
 
   
   border: 6px solid #0d1117;
 }
+/* .circle-img {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0d1117;
+} */
 
 .certificate-link {
     margin-left: 63px;
