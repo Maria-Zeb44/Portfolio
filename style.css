@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+article {
+    padding: 20PX;
+    margin: auto;
+    width: 800px;
+    background-color: #fafafa;
+    color: #2c2b2b;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    border:  5px solid white;
+   outline:6px solid #222b30;
+}
+
+
+body {
+    background-color: #0d1117;
+
+}
+
+a {
+    display: inline-block;
+    color:#0077b6;
+}
+.circle-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 150%;
+  object-fit: cover;
+
+  
+  border: 6px solid #0d1117;
+}
+
+.certificate-link {
+    margin-left: 63px;
+}
+.foooter{
+    text-align: right;
+}
