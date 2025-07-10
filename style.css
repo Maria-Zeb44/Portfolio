@@ -6,8 +6,9 @@ article {
     padding: 20PX;
     margin: auto;
     width: 800px;
-    background-color: #fafafa;
-    color: #2c2b2b;
+    /* background-color: #fafafa; */
+    background-color: #edebeb;
+    color: #483d3d;
 }
 
 h1 {
@@ -20,19 +21,23 @@ h1 {
 h2 {
     text-align: center;
     text-decoration: underline;
-    border:  5px solid white;
-   outline:6px solid #222b30;
+    border:  3px solid white;
+   outline:6px solid rgb(69, 68, 68);
 }
 
 
 body {
-    background-color: #0d1117;
+    background-color: rgb(138, 137, 137);
 
 }
 
 a {
     display: inline-block;
-    color:#0077b6;
+    font-weight: 200;
+   /* font-style: italic; */
+   font-family:sans-serif;
+    color : #0e0c0c;
+    font-size: small;
 }
 .circle-img {
   width: 120px;
@@ -41,7 +46,7 @@ a {
   object-fit: cover;
 
   
-  border: 6px solid #0d1117;
+  border: 6px solid rgb(69, 68, 68);
 }
 
 .certificate-link {
