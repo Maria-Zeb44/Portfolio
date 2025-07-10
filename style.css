@@ -32,11 +32,8 @@ body {
 
 a {
     display: inline-block;
-    font-weight: 200;
-   /* font-style: italic; */
-   font-family:sans-serif;
-    color : #0e0c0c;
-    font-size: small;
+     color : #0e0c0c;
+   
 }
 .circle-img {
   width: 120px;
