@@ -46,7 +46,10 @@ a {
 }
 
 .certificate-link {
-    margin-left: 66px;
+  
+}
+.googleCertificate{
+      margin-left: 0px;
 }
 .foooter{
     text-align: right;
