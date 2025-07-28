@@ -8,6 +8,9 @@ article {
     width: 800px;
     background-color: #edebeb;
     color: #483d3d;
+    
+     max-width: 800px;   /* max width for large screens */
+    width: 90%;      box-sizing: border-box;
 }
 
 h1 {
