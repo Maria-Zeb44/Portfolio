@@ -1,4 +1,4 @@
-html {
+ html {
     scroll-behavior: smooth;
 }
 
@@ -22,7 +22,7 @@ html {
     font-family: 'Km Standard TT';
     src: url('fonts/KmStandardTT-Bold.woff2') format('woff2'),
         url('fonts/KmStandardTT-Bold.woff') format('woff');
-    font-weight:800;
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -91,6 +91,9 @@ a {
 } 
 
 
+
+
+ 
 
 
  
