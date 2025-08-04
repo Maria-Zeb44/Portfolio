@@ -3,35 +3,43 @@ html {
 }
 
 @font-face {
-    font-family: 'TT Chocolates';
-    src: url('fonts/TTChocolates-Regular.woff2') format('woff2'),
-        url('fonts/TTChocolates-Regular.woff') format('woff');
-    font-weight:400;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'TT Chocolates';
+  src: url('fonts/TTChocolates-Regular.woff2') format('woff2'),
+       url('fonts/TTChocolates-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'TT Chocolates';
+  src: url('fonts/TTChocolates-Bold.woff2') format('woff2'),
+       url('fonts/TTChocolates-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
 @font-face {
     font-family: 'Km Standard TT';
     src: url('fonts/KmStandardTT-Bold.woff2') format('woff2'),
         url('fonts/KmStandardTT-Bold.woff') format('woff');
-    font-weight: bold;
+    font-weight:800;
     font-style: normal;
     font-display: swap;
 }
-
-
-
 strong, b {
-  font-weight: 900;
+  font-weight: 700;
 }
+
+
+
 article {
     padding: 20PX;
     margin: auto;
     width: 800px;
     background-color: #edebeb;
     color: #483d3d;
-   
-     max-width: 800px;   /* max width for large screens */
+    font-family: 'TT Chocolates'; max-width: 800px;  
+     /* max-width: 800px;    max width for large screens  */
     width: 90%;      box-sizing: border-box;
 }
 
@@ -50,15 +58,16 @@ h2 {
 }
 
 
-body { font-family: 'TT Chocolates';
+body {
     background-color: rgb(138, 137, 137);
 
 }
-
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
 a {
     display: inline-block;
      color : #0e0c0c;
-     
    
 }
 .circle-img {
@@ -71,12 +80,17 @@ a {
   border: 6px solid rgb(69, 68, 68);
 }
 
-/* .certificate-link {
+.certificate-link {
   
-} */
+} 
 .googleCertificate{
       margin-left: 0px;
 }
 .foooter{
     text-align: right;
-}
+} 
+
+
+
+
+ 
