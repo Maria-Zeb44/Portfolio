@@ -18,14 +18,14 @@ html {
   font-style: normal;
 }
 
-/* @font-face {
+@font-face {
     font-family: 'Km Standard TT';
     src: url('fonts/KmStandardTT-Bold.woff2') format('woff2'),
         url('fonts/KmStandardTT-Bold.woff') format('woff');
     font-weight:800;
     font-style: normal;
     font-display: swap;
-} */
+}
 @font-face {
     font-family: 'TT Chocolates';
     src: url('fonts/TTChocolates-DemiBold.woff2') format('woff2'),
