@@ -25,6 +25,7 @@ html {
 }
 
 strong, b {
+    font-family: "Libertinus Sans", sans-serif;
     font-weight: 800;
 }
 
