@@ -3,43 +3,29 @@ html {
 }
 
 @font-face {
-  font-family: 'TT Chocolates';
-  src: url('fonts/TTChocolates-Regular.woff2') format('woff2'),
-       url('fonts/TTChocolates-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'TT Chocolates';
+    src: url('fonts/TTChocolates-Regular.woff2') format('woff2'), url('fonts/TTChocolates-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
-/* @font-face {
-  font-family: 'TT Chocolates';
-  src: url('fonts/TTChocolates-Bold.woff2') format('woff2'),
-       url('fonts/TTChocolates-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-} */
+@font-face {
+    font-family: 'TT Chocolates';
+    src: url('fonts/TTChocolates-DemiBold.woff2') format('woff2'), url('fonts/TTChocolates-DemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Km Standard TT';
-    src: url('fonts/KmStandardTT-Bold.woff2') format('woff2'),
-        url('fonts/KmStandardTT-Bold.woff') format('woff');
-    font-weight:800;
+    src: url('fonts/KmStandardTT-Bold.woff2') format('woff2'), url('fonts/KmStandardTT-Bold.woff') format('woff');
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: 'TT Chocolates';
-    src: url('TTChocolates-DemiBold.woff2') format('woff2'),
-        url('TTChocolates-DemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
 
 strong, b {
-  font-weight: 700;
+    font-weight: 800;
 }
 
 
@@ -50,58 +36,55 @@ article {
     width: 800px;
     background-color: #edebeb;
     color: #483d3d;
-    font-family: 'TT Chocolates'; max-width: 800px;  
-     /* max-width: 800px;    max width for large screens  */
-    width: 90%;      box-sizing: border-box;
+    font-family: 'TT Chocolates';
+    max-width: 800px;
+    /* max-width: 800px;    max width for large screens  */
+    width: 90%;
+    box-sizing: border-box;
 }
 
 h1 {
     text-transform: capitalize;
     text-align: center;
     text-decoration: underline;
-    font-family:'Km Standard TT','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Km Standard TT','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
     font-family: "Libertinus Sans", sans-serif;
     text-align: center;
     text-decoration: underline;
-    border:  3px solid white;
-   outline:6px solid rgb(69, 68, 68);
+    border: 3px solid white;
+    outline: 6px solid rgb(69, 68, 68);
 }
 
 
 body {
     background-color: rgb(138, 137, 137);
+}
 
-}
 h1, h2, h3, h4 {
-  font-weight: 700;
+    font-weight: 700;
 }
+
 a {
     font-family: "Libertinus Sans", sans-serif;
     display: inline-block;
-     color : #0e0c0c;
-   
+    color: #0e0c0c;
 }
+
 .circle-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
-  object-fit: cover;
-
-  
-  border: 6px solid rgb(69, 68, 68);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 6px solid rgb(69, 68, 68);
 }
 
-.googleCertificate{
-      margin-left: 0px;
+.googleCertificate {
+    margin-left: 0px;
 }
-.foooter{
+
+.foooter {
     text-align: right;
-} 
-
-
-
-
- 
+}
