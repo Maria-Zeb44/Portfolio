@@ -26,14 +26,7 @@ html {
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: 'TT Chocolates';
-    src: url('fonts/TTChocolates-DemiBold.woff2') format('woff2'),
-        url('fonts/TTChocolates-DemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 
 strong, b {
