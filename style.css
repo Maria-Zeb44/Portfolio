@@ -28,10 +28,13 @@
 }
 strong, b {
   font-family: "Libertinus Sans", sans-serif;
+
   font-weight: 800;
 }
-
-
+h2 strong{
+  
+  font-family: "Libertinus Sans", sans-serif;
+}
 
 article {
     padding: 20PX;
@@ -82,7 +85,17 @@ a {
   
   border: 6px solid rgb(69, 68, 68);
 }
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
+}
 
+.emailIcon {
+  width: 20px;
+  height: 20px;
+  vertical-align:middle;
+}
 .googleCertificate{
       margin-left: 0px;
 }
@@ -90,7 +103,17 @@ a {
     text-align: right;
 } 
 
+i.fa-linkedin {
+  color: #0077b5;
+  font-size: large;
+  gap: 8px;
+}
+
+i.fa-github {
+  color: #000000;
+  font-size: large;gap: 8px;
+}
 
 
 
- 
+
